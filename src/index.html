@@ -6,7 +6,7 @@
     <link rel="stylesheet" href="style.css" />
   </head>
   <body>
-    <div id="pantalla1">
+    <div id="ejemplo">
       <h1>Sing in</h1>
       <input type="text" name="cuadro_de_texto" value="">
     <p>Usuario</p>
@@ -14,11 +14,11 @@
       <br>
       <p>Contraseña</p>
       <br>
-      <button type="button" name="button"> Entrar</button>
+    <input type="button" value="Entrar" onclick="siguiente()" id="next2">
     </div>
-    <hr>
+
     <div id="pantalla2">
-      <button type="button" name="button">Logout</button>
+      <button type="button" name="button" id="next1" onclick="siguiente()">Logout</button>
 <h1>Instrucciones</h1>
 <ol>
   <li>Ingresa un número del 1 al 10 para el desplazamiento de carácteres.</li>
@@ -29,7 +29,7 @@
 <br>
 <button type="button" name="button">Continuar</button>
     </div>
-    <hr>
+
     <div id="pantalla3">
       <button type="button" name="button">Logout</button>
       <button type="button" name="button">Instrucciones</button>
