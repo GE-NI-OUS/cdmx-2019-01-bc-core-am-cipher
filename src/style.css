@@ -1,6 +1,31 @@
-#ejemplo{
-  display: contents;
+@@import "<link href="https://fonts.googleapis.com/css?family=Coiny|Noto+Serif" rel="stylesheet">";
+
+* {
+  margin: 0;
+  padding: 0;
 }
-#pantalla2,#pantalla3{
-  display: none;
+
+#principal_screen{
+  margin: auto;
+  width: auto;
+  height: 800px;
+  background-color: #638EB3;
+  text-align: center;
+  font-family: 'Noto Serif', serif;
+
+}
+
+#info_cypher{
+  margin: auto;
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  width: 480px;
+  height: 500px;
+  background-color: #fcfdff;
+  text-align: center;
+  align-items: center;;
+
 }

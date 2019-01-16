@@ -6,48 +6,20 @@
     <link rel="stylesheet" href="style.css" />
   </head>
   <body>
-    <div id="ejemplo">
-      <h1>Sing in</h1>
-      <input type="text" name="cuadro_de_texto" value="">
-    <p>Usuario</p>
-      <input type="text" name="cuadro_de_texto2" value="">
-      <br>
-      <p>Contraseña</p>
-      <br>
-    <input type="button" value="Entrar" onclick="siguiente()" id="next2">
-    </div>
-
-    <div id="pantalla2">
-      <button type="button" name="button" id="back1" onclick="atras()">Logout</button>
-<h1>Instrucciones</h1>
-<ol>
-  <li>Ingresa un número del 1 al 10 para el desplazamiento de carácteres.</li>
-  <li>Asigna una contraseña. Recuerda que sólo se permiten mayúsculas; sin espacios y no se permiten letras consecutivas.</li>
-  <li>Ingresa el correo electrónica del usuario.</li>
-  <li>Presiona enviar.</li>
-</ol>
-<br>
-<button type="button" name="button" id="start" onclick="continuar()">Continuar</button>
-    </div>
-
-    <div id="pantalla3">
-      <button type="button" name="button" id="back2" onclick="atras2()">Logout</button>
-      <button type="button" name="button" id="instrucciones1" onclick="instrucciones2()">Instrucciones</button>
-      <h1>Asignación de contraseña</h1>
-      <p>Ingresa el número de desplazamiento</p>
-      <input type="text" name="" value="">
-      <p>Ingresa la contraseña</p>
-      <input type="text" name="" value="">
+      <div id="principal_screen">
+      <h1>Codificador y decodificador de contraseñas</h1>
+      <section id="info_cypher">
+      <input type="number" id="desplazamiento" placeholder="# desplazamiento" min="0" max="100">
+      <br> <br>
+      <input type="text" id="mensaje" placeholder="inserta texto">
+      <p>Cifrado / Descifrado</p>
+      <input type="text" id="textoC">
       <br><br>
-      <button type="button" name="button">Cifrar</button>
-      <br>       <br>
-      <input type="text" name="" value="" placeholder="Cifrado">
-      <br><br>
-      <input type="text" name="" value="" placeholder="Correo electrónico">
-      <br><br>
-      <button type="button" name="button">Enviar</button>
-      <button type="button" name="button">Nueva acción</button>
-    </div>
+      <input type="button" id="cifra" value="Cifrar" onclick="cifrar()">
+      <!--<input type="button" id="descifrar" onclick=""="descifrado()" value="Descifrar">
+      <input type="button" id="limpiar" onclick="refresh" value="Limpiar">-->
+      </section>
+      </div>
     <script src="cipher.js"></script>
     <script src="index.js"></script>
   </body>
