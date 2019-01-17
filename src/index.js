@@ -1,9 +1,21 @@
+const offset = document.getElementById("offset");
+const cadena = document.getElementById("cadena");
+const boton = document.getElementById("cifrar");
+const boton2 = document.getElementById("descifrar");
 
-function cifrar (){
-  const cadena = document.getElementById("mensaje").value.toUpperCase();
-  const offset = parseInt(document.getElementById("desplazamiento")).value;
-  document.getElementById("cifra").innerHtml = cipher.enconde(cadena,offset));
-}
 
-//const boton = document.getElementById('cifra');
-//boton.addEventListener("click",window.cipher.cifrar());
+boton.addEventListener("click", ()=> {
+  let num1 = offset.value;
+  let num = parseInt(num1);
+  let msj = cadena.value.toUpperCase();
+  document.getElementById("textoC").value = window.cipher.encode(num,msj);
+
+});
+
+boton2.addEventListener("click", ()=> {
+  let num3 = offset.value;
+  let num1 = parseInt(num3);
+  let msj2 = cadena.value.toUpperCase();
+  document.getElementById("textoC").value = window.cipher.decode(num1,msj2);
+
+});
