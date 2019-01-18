@@ -5,8 +5,10 @@ encode:(num,msj)=> {
       let formula = (msj.charCodeAt(i) - 65 + num)% 26 +65;
       let strEnconde = String.fromCharCode(formula);
       cifrando+=strEnconde;
+      debugger;
   }
 return cifrando;
+debugger;
 },
 decode: (num1,msj2)=>{
   let cifrando2 = "";

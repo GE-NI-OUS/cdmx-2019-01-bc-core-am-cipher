@@ -7,18 +7,17 @@
   </head>
   <body>
       <div id="principal_screen">
-      <h1>Codificador y decodificador de contraseñas</h1>
-      <section id="info_cypher">
+
       <input type="number" id="offset" placeholder="# desplazamiento" min="0" max="100">
       <br> <br>
       <input type="text" id="cadena" placeholder="inserta texto">
       <p>Cifrado / Descifrado</p>
       <input type="text" id="textoC">
       <br><br>
-      <input type="button" id="cifrar" value="Cifrar">
-      <input type="button" id="descifrar" value="Descifrar">
-        <!--<input type="button" id="limpiar" onclick="refresh" value="Limpiar">-->
-      </section>
+      <input type="button" id="cifrar" value="Cifrar" class="botones">
+      <input type="button" id="descifrar" value="Descifrar" class="botones">
+      <br><br>
+      <input type="button" id="limpiar" onclick="refresh" value="Limpiar" class="botones">
       </div>
     <script src="cipher.js"></script>
     <script src="index.js"></script>
