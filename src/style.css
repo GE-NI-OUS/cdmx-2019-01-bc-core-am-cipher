@@ -106,6 +106,7 @@ header{
   text-align: center;
   outline: none;
   border: 0;
+  border-radius: 19px;
 }
 
 .estilo2{
@@ -127,10 +128,63 @@ header{
 }
 
 .container{
-  display: inline;
+  display: inline-grid;
   border-radius: 5px;
-  background-color: #DADADA;
+  background-color: #EAE9E9;
   position: relative;
-  left: 183px;
+  left: 515px;
+  top: 63px;
+  width: 42%;
+  height: 409px;
+}
 
+.form{
+  position: absolute;
+  display: inline-grid;
+  margin-top: -6px;
+  margin-left: 26%;
+  width: 247%;
+}
+
+.formulario2{
+  font-family: 'Arsenal', sans-serif;
+  font-size: 12px;
+  width: 26%;
+  border-radius: 2px;
+  margin-top: 14px;
+  height: 28px;
+  background-color: #FFFFFF;
+  outline: none;
+  border: 0;
+}
+
+.ancho{
+  height: 112px;
+}
+
+.lab1{
+  font-family: 'Arsenal', sans-serif;
+  font-size: 18px;
+  position: relative;
+  bottom: -37px;
+  left: -128px;
+
+}
+.botonForm{
+  padding-right: 30px;
+  position: relative;
+  top: 88%;
+  left: 79px;
+}
+
+.twiiter{
+  font-family: 'Magra', sans-serif;
+  width: 9%;
+  position: relative;
+  right: 39%;
+  bottom: -61px;
+  background-image: url("./img/twitter.png");
+  background-repeat: no-repeat;
+  background-position: left;
+  background-size: auto;
 }
