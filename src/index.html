@@ -1,25 +1,58 @@
 <!DOCTYPE html>
 <html>
-  <head>
+<head>
     <meta charset="utf-8">
     <title>Caesar Cipher</title>
-    <link rel="stylesheet" href="style.css" />
-  </head>
-  <body>
-      <div id="principal_screen">
+    <link rel="stylesheet" href="style.css">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+</head>
+<body>
+      <header>
+      <figure id="logo">
+      <img type="button" src="img/logo_cypher.png" id="logoboton">
+      </figure>
+      <nav id="navegador">
+      <input type="button" name="¿QUÉ ES CODING?" value="¿QUÉ ES CODING?" id="info" class="botones estilo">
+      <input type="button" name="HAZ UNA PRUEBA" value="HAZ UNA PRUEBA" id="entrar" class="botones estilo">
+      <input type="button" name="CONTACTO" value="CONTACTO" id="contacto" class="botones estilo">
+      </nav>
+      </header>
 
-      <input type="number" id="offset" placeholder="# desplazamiento" min="0" max="100">
-      <br> <br>
-      <input type="text" id="cadena" placeholder="inserta texto">
-      <p>Cifrado / Descifrado</p>
-      <input type="text" id="textoC">
-      <br><br>
-      <input type="button" id="cifrar" value="Cifrar" class="botones">
-      <input type="button" id="descifrar" value="Descifrar" class="botones">
-      <br><br>
-      <input type="button" id="limpiar" onclick="refresh" value="Limpiar" class="botones">
+      <div id="primera_pantalla" class="content">
+      <div id="slogan">
+      <p id="slogan1">KEEPING YOUR</p>
+      <p id="slogan2">SECURITY</p>
       </div>
-    <script src="cipher.js"></script>
-    <script src="index.js"></script>
-  </body>
+      </div>
+
+      <div id="principal_screen" class="content hide">
+      <form id="formulario">
+      <input type="text" id="cadena" placeholder="Contraseña" class="espacio">
+      <input type="number" id="offset" placeholder="Desplazamiento" min="0" max="100" class="espacio">
+      <br>
+      <p class="espacio" id="parrafocodedecode"> Cifrado / Descifrado</p>
+      <input type="text" id="textoC" class="espacio">
+      </form>
+      <section id="bottomcdr">
+      <input type="button" id="cifrar" value="Cifrar" class="estilo2 botones2">
+      <input type="button" id="descifrar" value="Descifrar" class="estilo2 botones2">
+      <input type="button" id="limpiar"  value="Limpiar" class="estilo2 botones2">
+      </section>
+      </div>
+
+      <div id="info_code" class="hide">
+      <p>¿Qué es coding</p>
+      </div>
+
+      <div id="contac" class="hide">
+      <div class="container">
+      <input type="text" name="" value="" placeholder="Nombre">
+      <input type="text" name="" value="" placeholder="Teléfono">
+      </div>
+      </div>
+
+<script src="cipher.js"></script>
+<script src="index.js"></script>
+<script src="index2.js"></script>
+</body>
 </html>
