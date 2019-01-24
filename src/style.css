@@ -55,7 +55,7 @@ header{
   background-repeat: no-repeat;
   background-position: center;
   background-size: cover;
-  height: 80vh;
+  height: 78vh;
   width: 191vh;
   background-position: 61px -59px;
 }
@@ -98,6 +98,7 @@ header{
   position: relative;
   top: 418px;
   left: 20%;
+  height: 0%;
 }
 
 .espacio{

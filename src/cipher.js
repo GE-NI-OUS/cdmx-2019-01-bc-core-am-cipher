@@ -7,7 +7,7 @@ encode:(num,msj)=> {
       let strEncode3 = String.fromCharCode(formula3);
       cifrando += strEncode3;
 }     else if (msj.charCodeAt(i) >=97 && msj.charCodeAt(i)<=122) {
-      let formula4 = (msj.charCodeAt(i)- 97 + num)%26 + 97;
+      let formula4 = (msj.charCodeAt(i) - 97 + num)%26 + 97;
       let strEnconde4 = String.fromCharCode(formula4);
       cifrando += strEnconde4;
 }     else if (msj.charCodeAt(i) >=32 && msj.charCodeAt(i)<=64) {
