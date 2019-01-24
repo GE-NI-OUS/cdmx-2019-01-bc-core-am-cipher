@@ -21,11 +21,13 @@ header{
   outline: none;
   border: 0;
 }
+
 .botones:hover{
   background-color: #B5B83D;
   color: #FFFFFF;
 
 }
+
 .estilo{
   font-family: 'Magra', sans-serif;
   font-size: 25px;
@@ -69,6 +71,7 @@ header{
   font-family: 'Days One', sans-serif;
   color: white;
 }
+
 #slogan2{
   font-size: 56px;
   font-family: 'Days One', sans-serif;
@@ -81,24 +84,25 @@ header{
 
 #formulario{
   position: relative;
-  top: 47px;
+  top: 34px;
   left: 32%;
+  width: 160px;
 
 }
 
-#parrafocodedecode{
+.parrafocodedecode{
   font-size: 21px;
 }
 
 #bottomcdr{
   position: relative;
-  top: 380px;
-  left: 18%
+  top: 418px;
+  left: 20%;
 }
 
 .espacio{
   display: block;
-  margin-top: 20px;
+  margin-top: 8px;
   width: 291%;
   height: 46px;
   font-size: 17px;
@@ -113,7 +117,7 @@ header{
   font-family: 'Arsenal', sans-serif;
   background-color: #FFFFFF;
   font-size: 18px;
-  margin-left: 37px;
+  margin-left: 23px;
   width: 138px;
   border-radius: 4px;
   -webkit-transition-duration: 0.4s;
@@ -128,28 +132,28 @@ header{
 }
 
 .container{
+  background-color: #D5D5D5;
   display: inline-grid;
   border-radius: 5px;
-  background-color: #EAE9E9;
   position: relative;
-  left: 515px;
+  left: 648px;
   top: 63px;
-  width: 42%;
+  width: 36%;
   height: 409px;
 }
 
 .form{
   position: absolute;
   display: inline-grid;
-  margin-top: -6px;
-  margin-left: 26%;
-  width: 247%;
+  width: 100%;
+  padding-left: 163px;
 }
 
 .formulario2{
-  font-family: 'Arsenal', sans-serif;
+  font-family: 'Magra', sans-serif;
+  font-weight: bold;
   font-size: 12px;
-  width: 26%;
+  width: 61%;
   border-radius: 2px;
   margin-top: 14px;
   height: 28px;
@@ -163,28 +167,53 @@ header{
 }
 
 .lab1{
-  font-family: 'Arsenal', sans-serif;
-  font-size: 18px;
+  font-family: 'Magra', sans-serif;
+  font-weight: bold;
   position: relative;
   bottom: -37px;
   left: -128px;
-
 }
+
 .botonForm{
-  padding-right: 30px;
   position: relative;
   top: 88%;
   left: 79px;
 }
 
-.twiiter{
-  font-family: 'Magra', sans-serif;
-  width: 9%;
-  position: relative;
-  right: 39%;
-  bottom: -61px;
-  background-image: url("./img/twitter.png");
+#formulario_contacto{
+  background-image: url("./img/info.png");
   background-repeat: no-repeat;
-  background-position: left;
-  background-size: auto;
+  height: 51vh;
+  width: 60vh;
+  position: relative;
+  bottom: -72px;
+  right: 470px;
+  background-size: contain;
+  background-position: center;
+}
+
+.textArea{
+  font-family: 'Arsenal', sans-serif;
+  font-size: 22px;
+  text-align: justify;
+}
+
+.tamano{
+  position: relative;
+  bottom: -73px;
+  left: 17%;
+  width: 353px;
+  height: 206px;
+}
+
+.tamano2{
+  position: relative;
+  right: -31%;
+  bottom: -67px;
+  width: 448px;
+}
+
+.encabezado{
+  color: #FFFFFF;
+  text-align: center;
 }
