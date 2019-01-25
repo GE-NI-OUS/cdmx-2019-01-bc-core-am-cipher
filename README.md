@@ -28,7 +28,7 @@ Por ejemplo, si usamos un desplazamiento de 3 posiciones:
 6. Si todo ha ido bien, deberías poder ejecutar las :traffic_light:
    pruebas unitarias (unit tests) con el comando `npm run test`.
 
-##Consideraciones técnicas
+## Consideraciones técnicas
 Este proyecto está desarrollado con:
 - EMS6 JavaScript puro [JSVanilla](https://medium.com/laboratoria-developers/vanillajs-vs-jquery-31e623bbd46e).
 -CSS3
@@ -43,14 +43,14 @@ Las pruebas automatizadas para este sistema requieren de una instalación simple
 - Génesis Enríquez
 ## Agradecimientos
 
-Mitzy Yolotzin
-Abygail Romero
-Olga Contreras
-Erandi Vazquez
-Cristal García
-Brenda Vasquez
-Ameyali Brito
-Y a cada uno de los coaches en Laboratoria.
+- Mitzy Yolotzin
+- Abygail Romero
+- Olga Contreras
+- Erandi Vazquez
+- Cristal García
+- Brenda Vasquez
+- Ameyali Brito
+- Y a cada uno de los coaches en Laboratoria.
 
 # UX-UI
 El diseño UX-UI se encuentra en el siguiente link:(https://docs.google.com/document/d/1UPLKMN8fuosdjYj8GkKQduT9xuGXahQwhgPP3HRE3SY/edit?usp=sharing)

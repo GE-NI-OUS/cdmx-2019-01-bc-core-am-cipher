@@ -101,6 +101,15 @@ header{
   height: 0%;
 }
 
+article{
+  position: relative;
+  bottom: -486px;
+  left: -7%;
+  height: 9%;
+  font-family: 'Arsenal', sans-serif;
+  font-size: 13px;
+}
+
 .espacio{
   display: block;
   margin-top: 8px;
