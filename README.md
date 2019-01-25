@@ -1,6 +1,6 @@
-# CODIN
+# CODING
 
-CODIN es un programa que te permite crear contraseñas seguras mediante codificación y decodificación. CODING fue creado  bajo el método [cifrado César]. Esta es una técnica de codificación por sustitución, donde cada letra de un texto es reemplazada por otra letra acorde a un número determinado de posiciones (desplazamiento) en el alfabeto.
+CODING es un programa que te permite crear contraseñas seguras mediante codificación y decodificación. CODING fue creado  bajo el método [cifrado César]. Esta es una técnica de codificación por sustitución, donde cada letra de un texto es reemplazada por otra letra acorde a un número determinado de posiciones (desplazamiento) en el alfabeto.
 
 Por ejemplo, si usamos un desplazamiento de 3 posiciones:
 - La letra A se cifra como D.
